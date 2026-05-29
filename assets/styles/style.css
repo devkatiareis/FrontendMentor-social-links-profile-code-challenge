@@ -79,4 +79,25 @@ body {
     gap: 16px;
 }
 
+/* Links Buttons */
+.link-btn {
+    display: block;
+    background-color: var(--bg-button);
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    outline: none;
+}
+
+/* Hover Buttons (on-mouse hover and keyboard effect) */
+.link-btn:hover,
+.link-btn:focus-visible {
+    background-color: var(--bg-button-hover);
+    color: var(--bg-global);
+}
+
 
