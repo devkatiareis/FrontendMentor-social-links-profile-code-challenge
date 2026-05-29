@@ -101,3 +101,13 @@ body {
 }
 
 
+/* FrontEnd Mentor Attribution */
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center;
+    color: var(--text-gray);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
